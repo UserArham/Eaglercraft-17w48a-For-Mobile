@@ -1,5 +1,5 @@
 // Removed brainless unsafeWindow 
-console.log("Eagler Pocket Mobile v1.40.1")
+console.log("Eagler Pocket Mobile v1.40.2")
 // TODO: remove the mobile check is implement the dynamic enabling and disabling of individual features
 function isMobile() {
     try {
@@ -10,7 +10,7 @@ function isMobile() {
     }
 }
 if(!isMobile()) {
-    alert("WARNING: This script was created for mobile, and may break functionality in non-mobile browsers!");
+    alert("WARNING: This script was created for mobile and tablet! Computer web browsers may break functionality, sorta.");
 }
 // TODO: consolidate all of these into a single object?
 window.crouchLock = false; // Used for crouch mobile control
